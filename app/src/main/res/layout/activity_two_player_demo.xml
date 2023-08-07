@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textOpponentGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opponent's Guess:" />
+
+    <EditText
+        android:id="@+id/editOpponentGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textYourGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Guess:" />
+
+    <EditText
+        android:id="@+id/editYourGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonSubmitGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Guess" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/biContainer"
+    android:background="#D5FFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:id="@+id/box1"
+        android:background="#D5FFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/box2"
+        android:background="#D5FFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+    </LinearLayout>
+
+
+</LinearLayout>

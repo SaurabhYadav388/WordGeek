@@ -1,0 +1,26 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:right="2dp" android:top="2dp" >
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#D6D6D6" />
+                </shape>
+            </item>
+            <item android:bottom="2dp" android:left="2dp" >
+                <shape>
+                    <gradien
+                        android:type="linear" /> <!-- Gradient type: linear -->
+
+                    <corners android:radius="8dp" /> <!-- Button corner radius -->
+                    <padding
+                        android:left="8dp"
+                        android:top="6dp"
+                        android:right="8dp"
+                        android:bottom="2dp" /> <!-- Button padding -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

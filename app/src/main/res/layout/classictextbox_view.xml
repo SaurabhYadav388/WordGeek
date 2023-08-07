@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/classictextbox_view_id"
+    android:textSize="30sp"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:layout_margin="2dp"
+    android:background="@drawable/letterbox_background"
+    android:maxLength="1"
+    android:inputType="none"
+    android:layout_weight="1"
+    >
+
+</TextView>

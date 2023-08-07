@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862125656135",
+    "project_id": "wordgeek-e5c6b",
+    "storage_bucket": "wordgeek-e5c6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862125656135:android:7dee44e568ddc6df470962",
+        "android_client_info": {
+          "package_name": "com.example.wordgeek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862125656135-hnn8q4s4jq96spinu0j92ccdp0439vo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsEh7-C-quvJZSZJB_i2xdc0MljESggbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862125656135-hnn8q4s4jq96spinu0j92ccdp0439vo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
