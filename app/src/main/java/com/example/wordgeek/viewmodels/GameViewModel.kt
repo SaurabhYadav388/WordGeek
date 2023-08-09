@@ -289,7 +289,10 @@ class GameViewModel(val gameSize:Int,val guessSize:Int,val wordSize:Int,val link
                 val clickSpan = object : ClickableSpan() {
                     override fun onClick(view: View) {
                         Log.d("Clicked:"," $word")
-                        getWordDictionaryDetails(word, context)
+                        viewModelScope.launch {
+                            getWordDictionaryDetails(word, context)
+                        }
+
                     }
                 }
                 val endIndex = startIndex + word.length
