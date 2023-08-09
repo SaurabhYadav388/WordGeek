@@ -283,6 +283,7 @@ class GameViewModel(val gameSize:Int,val guessSize:Int,val wordSize:Int,val link
 
             // Set a custom ClickableSpan to handle clicks on the words
             val spannable = gameEndDialog.findViewById<TextView>(R.id.textViewWordtoGuess).text as Spannable
+
             val words = spannable.toString().split("\n")
             var startIndex = 0
             for (word in words) {
